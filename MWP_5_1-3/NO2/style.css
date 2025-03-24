@@ -1,0 +1,95 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 1490px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: black;
+}
+
+.head-tanggal,
+.head-jam {
+  font-size: 20px;
+}
+#main {
+  margin-top: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main img {
+  height: 25%;
+  width: 25%;
+  margin-left: 350px;
+  margin-top: -200px;
+}
+.main-text {
+  width: 550px;
+}
+footer {
+  background-color: #828282;
+  color: white;
+  padding: 20px;
+  margin-top: 150px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.footer-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-left: -280px;
+}
+.footer-img ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+.footer-img img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s;
+}
+.footer-img img:hover {
+  transform: scale(1.2);
+}
+.footer-form {
+  flex: 1;
+  max-width: 400px;
+}
+.footer-form form {
+  display: flex;
+  flex-direction: column;
+}
+.footer-form input,
+.footer-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: none;
+}
+.footer-form button {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.footer-form button:hover {
+  background-color: #e68900;
+}
